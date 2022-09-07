@@ -41,10 +41,11 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="0">
+  <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>"Bachelor Thesis Robert Hubinger".bcf</file>
+      <file>"Bachelor Thesis Robert Hubinger".aux</file>
+      <file>Bachelor_Thesis_Robert_Hubinger-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>"Bachelor Thesis Robert Hubinger".bbl</file>
@@ -52,6 +53,7 @@
     <requires type="static">
       <file>blx-dm.def</file>
       <file>blx-compat.def</file>
+      <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
       <file>numeric.bbx</file>
       <file>standard.bbx</file>
@@ -62,14 +64,15 @@
       <file>german.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="0">
-    <generic>biber</generic>
+  <external package="biblatex" priority="5" active="1">
+    <generic>bibtex</generic>
     <cmdline>
-      <binary>biber</binary>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
       <infile>"Bachelor Thesis Robert Hubinger"</infile>
     </cmdline>
     <input>
-      <file>"Bachelor Thesis Robert Hubinger".bcf</file>
+      <file>"Bachelor Thesis Robert Hubinger".aux</file>
     </input>
     <output>
       <file>"Bachelor Thesis Robert Hubinger".bbl</file>
@@ -78,10 +81,14 @@
       <file>"Bachelor Thesis Robert Hubinger".bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>"Bachelor Thesis Robert Hubinger".bcf</file>
+      <file>"Bachelor Thesis Robert Hubinger".aux</file>
+      <file>Bachelor_Thesis_Robert_Hubinger-blx.bib</file>
     </requires>
     <requires type="editable">
       <file>bibliography.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
     </requires>
   </external>
 </requests>

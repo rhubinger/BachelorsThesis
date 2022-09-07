@@ -1,15 +1,15 @@
 \BOOKMARK [0][-]{Doc-Start}{Acknowledgments}{}% 1
 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 2
-\BOOKMARK [0][-]{chapter*.2}{Kurzfassung}{}% 3
-\BOOKMARK [0][-]{toc.0}{Contents}{}% 4
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 5
-\BOOKMARK [0][-]{chapter.2}{Background}{}% 6
-\BOOKMARK [1][-]{section.2.1}{LAIK}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.1.1}{General Purpose}{section.2.1}% 8
-\BOOKMARK [2][-]{subsection.2.1.2}{Action Sequences}{section.2.1}% 9
-\BOOKMARK [2][-]{subsection.2.1.3}{Backends}{section.2.1}% 10
-\BOOKMARK [1][-]{section.2.2}{Inter Process Communication}{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.1}{Shared memory}{section.2.2}% 12
+\BOOKMARK [0][-]{toc.0}{Contents}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 5
+\BOOKMARK [1][-]{section.2.1}{LAIK}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.1.1}{Action Sequences}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.2}{Backend Interface}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.3}{Data Storage}{section.2.1}% 9
+\BOOKMARK [1][-]{section.2.2}{Inter Process Communication}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.1}{Shared memory}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.2}{Semaphores}{section.2.2}% 12
 \BOOKMARK [0][-]{chapter.3}{Design}{}% 13
 \BOOKMARK [1][-]{section.3.1}{Architecture}{chapter.3}% 14
 \BOOKMARK [2][-]{subsection.3.1.1}{Initialization}{section.3.1}% 15
@@ -26,3 +26,4 @@
 \BOOKMARK [0][-]{chapter.7}{Summary and Outlook}{}% 26
 \BOOKMARK [0][-]{chapter*.6}{List of Figures}{}% 27
 \BOOKMARK [0][-]{chapter*.7}{List of Tables}{}% 28
+\BOOKMARK [0][-]{chapter*.8}{Bibliography}{}% 29

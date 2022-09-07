@@ -1,0 +1,67 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{laik-paper}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=JWCTDY}{%
+         family={Josef\bibnamedelima Weidendorfer},
+         familyi={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+         suffix={Dai\bibnamedelima Yang},
+         suffixi={D\bibinitperiod\bibinitdelim Y\bibinitperiod},
+         given={Carsten\bibnamedelima Trinitis},
+         giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{organization}{1}{%
+      {Gesellschaft der Informatik}%
+    }
+    \keyw{High Performance Computing, Parallel Data Containers, Parallel
+  Programming Models}
+    \strng{namehash}{JWDYCT1}
+    \strng{fullhash}{JWDYCT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    HPC applications usually are not written in a way that they can cope with
+  dynamic changes in the execution environment, such as removing or integrating
+  new nodes or node components. However, for higher flexibility in regard to
+  scheduling and fault tolerance strategies, ade- quate application-integrated
+  reaction would be worthwhile. With legacy MPI codes, this is difficult to
+  achieve. In this paper, we present LAIK, a lightweight library for
+  distributed index spaces and associated data containers for parallel programs
+  supporting fault tolerance features. By giving LAIK control over data and its
+  partitioning, the library can free compute nodes before failure and do repli-
+  cation for rollback schemes on demand. Applications become more adaptive to
+  changes of available resources. We show an example of using LAIK and present
+  first results on a prototype implementation.%
+    }
+    \field{booktitle}{Konferenzband des PARS'17 Workshops}
+    \field{pages}{10}
+    \field{title}{LAIK: A Library for Fault Tolerant Distribution of Global
+  Data for Parallel Applications}
+    \list{location}{1}{%
+      {Hagen}%
+    }
+    \field{year}{2017}
+  \endentry
+\enddatalist
+\endinput

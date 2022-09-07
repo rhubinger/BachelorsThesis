@@ -1,17 +1,14 @@
 \RequirePackage[l2tabu,orthodox]{nag}
 
-% TODO: decide if one-sided/two-sided
-%\documentclass[headsepline,footsepline,footinclude=false,fontsize=11pt,paper=a4,listof=totoc,bibliography=totoc,BCOR=12mm,DIV=12]{scrbook} % two-sided % original source stated: BCOR=12mm,DIV=12
 \documentclass[headsepline,footsepline,footinclude=false,oneside,fontsize=11pt,paper=a4,listof=totoc,bibliography=totoc,DIV=12]{scrbook} % one-sided
 
-% TODO: change citation style in settings
 \input{settings}
 
 % TODO: change thesis information
 \newcommand*{\getUniversity}{Technische Universität München}
 \newcommand*{\getFaculty}{Department of Informatics}
 \newcommand*{\getTitle}{Design and Implementation of a Shared Memory Backend for LAIK}
-\newcommand*{\getTitleGer}{Design und Implementation eines Shared-Memory-Backends für LAIK}
+\newcommand*{\getTitleGer}{Design und Implementierung eines Shared Memory Backends für LAIK}
 \newcommand*{\getAuthor}{Robert Hubinger}
 \newcommand*{\getDoctype}{Bachelor's Thesis in Informatics}
 \newcommand*{\getSupervisor}{Josef Weidendorfer}
@@ -32,7 +29,7 @@
 
 \input{pages/title}
 \input{pages/disclaimer}
-\input{pages/acknowledgements} % TODO: if you don't have anyone to thank for or don't wish to publish it, comment this line out.
+\input{pages/acknowledgements} 
 \input{pages/abstract}
 \microtypesetup{protrusion=false}
 \tableofcontents{}
@@ -47,7 +44,6 @@
 \input{chapters/05_performance_analysis}
 \input{chapters/06_experiences}
 \input{chapters/07_summary_and_outlook}
-% TODO: add more chapters here
 
 \appendix{}
 
