@@ -2,3 +2,22 @@
 % Add the above to each chapter to make compiling the PDF easier in some editors.
 
 \chapter{Introduction}\label{chapter:introduction}
+
+LAIK is a library for data management in the HPC environment.
+Its focus lies on providing lightweight fault tolerance and load balancing mechanisms.
+The LAIK library sits between the application and the communication library used to migrate the data.
+Multiple backends are supported and application programmers can implement new backends for their own communication libraries.
+Shared memory is a promising candidate for such a new backend as it is a very efficient method for inter process communication.
+The only disadvantage of shared memory is that it is limited to one node as different nodes can not share memory.
+
+Our work presents the design and implementation of two shared memory based backends.
+We will implement both a standalone backend capable of running LAIK applications on a single node as well as a secondary backend which will provide shared memory based data migration for other LAIK backends.
+We will first introduce the core structure of the LAIK library and the used IPC mechanisms in \autoref{chapter:background}.
+The design of our library will be presented in \autoref{chapter:design}.
+There we will elaborate on the initialization of the backend, the data transport over shared memory and the differences between the two different backend versions.
+In \autoref{chapter:implementation} we will explain how the previously described designs were implemented.
+We will explain the structure of our backend and how a backend can use the functionality of our secondary backend version.
+We will then go into detail about our implementation of the initialization process and the data transport.
+Our implemented design will then be tested against other LAIK backends in \autoref{chapter:performance_analysis}.
+We conclude our work by discussing possible optimizations for future work in \autoref{chapter:summary_and_outlook}
+

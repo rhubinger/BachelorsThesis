@@ -1,0 +1,14 @@
+% !TeX root = ../main.tex
+% Add the above to each chapter to make compiling the PDF easier in some editors.
+
+\chapter{Summary and Outlook}\label{chapter:summary_and_outlook}
+
+In this work we presented the designs of two shared memory based backends for the LAIK library.
+We introduced the reader to the core functionality of LAIK and the IPC mechanisms used in the backend.
+After introducing the necessary background we explained the design of our shared memory backends.
+We then explained how we implemented both backends and how a backend can use the functionality of the secondary backend version to execute its data migration on shared memory.
+After that we tested our backends performance and compared it against other LAIK backends.
+
+We hope that this work can serve as the basis for future work.
+It would be interesting to see the performance of the backend with an efficient implementation of memcopy linked to it.
+Besides that, the approach of a 0 copy data transport where all processes work on one synchronized shared memory segment seems to be a promising approach to further increase LAIKs performance. 

@@ -1,1 +1,20 @@
 \chapter{\abstractname}
+
+LAIK is a library for data management in the HPC environment.
+Its focus lies on providing lightweight fault tolerance and load balancing mechanisms.
+The LAIK library sits between the application and the communication library used to migrate the data.
+Multiple backends are supported and application programmers can implement new backends using their own communication libraries.
+Shared memory is a promising communication method for a backend as it is a highly efficient method for inter process communication.
+We present designs for a standalone shared memory backend as well as a secondary backend version which executes the data migration of other backends on shared memory.
+We implement our designs and compare their performance against other LAIK backends.
+Finally, we outline possible optimizations as a basis for future work.
+
+\vspace{1cm}
+\noindent LAIK ist eine Bibliothek zur Datenverwaltung im HPC Umfeld.
+Ihr Schwerpunkt liegt auf der Bereitstellung leichtgewichtiger Fehlertoleranz- und Lastausgleichsmechanismen.
+Die LAIK-Bibliothek liegt zwischen der Anwendung und der Kommunikationsbibliothek, die für die Migration der Daten verwendet wird.
+Es werden mehrere Backends unterstützt und Anwendungsprogrammierer können neue Backends für ihre eigenen Kommunikationsbibliotheken implementieren.
+Sared Memory ist eine vielversprechende Kommunikationsmethode für ein Backend, da es eine sehr effiziente Methode für die Kommunikation zwischen Prozessen ist.
+Wir präsentieren Entwürfe für ein eigenständiges Shared-Memory-Backend sowie eine Sekundärbackend-Version, die die Datenmigration anderer Backends auf Shared Memory ausführt.
+Wir implementieren unsere Designs und vergleichen deren Leistung mit anderen LAIK-Backends.
+Schließlich skizzieren wir mögliche Optimierungen als Grundlage für zukünftige Arbeiten.

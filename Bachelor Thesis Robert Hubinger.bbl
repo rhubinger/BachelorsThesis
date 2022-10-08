@@ -63,5 +63,53 @@
     }
     \field{year}{2017}
   \endentry
+
+  \entry{unix-programming}{book}{}
+    \name{author}{1}{}{%
+      {{hash=WJ}{%
+         family={Wolf},
+         familyi={W\bibinitperiod},
+         given={Jürgen},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Rheinwerk Verlag}%
+    }
+    \strng{namehash}{WJ1}
+    \strng{fullhash}{WJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Linux-UNIX-Programmierung, Kapitel 9:
+  Interprozesskommunitkation}
+    \field{year}{2006}
+  \endentry
+
+  \entry{shared-memory}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=JK}{%
+         family={Johri},
+         familyi={J\bibinitperiod},
+         given={Karunesh},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JK1}
+    \strng{fullhash}{JK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{https://www.softprayog.in/programming/interprocess-communication-using-system-v-shared-memory-in-linux
+  (accessed: 08.09.2022)}
+    \field{title}{System V Shared Memory in Linux}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
+
+  \entry{intel-mpi}{manual}{}
+    \field{labeltitlesource}{title}
+  \field{edition}{https://www.intel.com/content/dam/develop/external/us/en/documents/mpi-devref-linux.pdf
+  (accessed: 10.09.2022)}
+    \field{title}{Intel® MPI Library Developer Reference for Linux* OS}
+  \endentry
 \enddatalist
 \endinput
